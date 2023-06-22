@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Shavindu Thushara
+*/
+
+@font-face{
+    font-family: ABC;
+    src: url("Digital7-1e1Z.ttf");
+}
+body{
+    padding: 70px;
+    background: #424242;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    position:fixed;
+    background: #000;
+    width: 540px;
+    height: 750px;
+    box-shadow: 0 3px 4px rgba(0,0,0,1),
+        inset 0 -2px 5px rgba(0,0,0,1),
+        inset 0 2px 2px rgba(255,255,255,0.5);
+}
+.bg_line{
+    border-radius: 50px;
+    position:absolute;
+    margin: 70px 50px 70px 50px;
+    justify-content: center;
+    background: #373737;
+    width: 400px;
+    height: 610px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 3px 4px rgba(0,0,0,1),
+        inset 0 -2px 5px rgba(0,0,0,1),
+        inset 0 2px 2px rgba(255,255,255,0.5);
+}
+.Monitoring_Display{
+    width: 400px;
+    height: 100px;
+    border:2px solid #fff;
+    box-shadow: 0 3px 4px rgba(0,0,0,1),
+        inset 0 -2px 5px rgba(0,0,0,1),
+        inset 0 2px 2px rgba(255,255,255,0.5);
+}
+#display{
+    text-align: right;
+    width: 382px;
+    height: 70.5px;
+    font-size: 50px;
+    font-family: ABC;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-top: 5.5px;
+    margin-left: 3.5px;
+    background: #6B6B6B;
+    overflow: hidden;
+}
+.Button_Line{
+    width: 405px;
+    height: 100px;
+    margin-top: 5px;
+}
+.BtnExit{
+    transform: translateX(7.5cm);
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background: #373737;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px rgba(0,0,0,1),
+        inset 0 -2px 5px rgba(0,0,0,1),
+        inset 0 2px 2px rgba(255,255,255,0.5);
+    font-weight: bolder;
+    outline: none;
+}
+.BtnExit:hover{
+    background: #373737;
+    color: #ff0000;
+    text-shadow: 0 0 15px #000,
+        0 0 20px #ff0000;
+}
+.BtnExit:active{
+    background: #262626;
+    color: #fff;
+}
+.Btn{
+    transform:translateY(0.3cm);
+    margin: 10px 10px 10px 10px;
+    width: 175px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background: #373737;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px rgba(0,0,0,1),
+        inset 0 -2px 5px rgba(0,0,0,1),
+        inset 0 2px 2px rgba(255,255,255,0.5);
+    font-weight: bolder;
+    outline: none;
+}
+.Btn:hover{
+    background: #373737;
+    color: #ff0000;
+    text-shadow: 0 0 15px #000,
+        0 0 20px #ff0000;
+}
+.Btn:active{
+    background: #262626;
+    color: #fff;
+}
+.BtnS{
+    margin: 10px 10px 10px 10px;
+    width: 175px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background: #373737;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px rgba(0,0,0,1),
+        inset 0 -2px 5px rgba(0,0,0,1),
+        inset 0 2px 2px rgba(255,255,255,0.5);
+    font-weight: bolder;
+    outline: none;
+}
+.BtnS:hover{
+    background: #373737;
+    color: #00ff00;
+    text-shadow: 0 0 15px #000,
+        0 0 20px #00ff00;
+}
+.BtnS:active{
+    background: #262626;
+    color: #fff;
+}
+.Pad{
+    margin: 10px;
+    width: 77px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    background: #373737;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px rgba(0,0,0,1),
+        inset 0 -2px 5px rgba(0,0,0,1),
+        inset 0 2px 2px rgba(255,255,255,0.5);
+    font-weight: bolder;
+    outline: none;
+}
+.down{
+    transform:translateY(0.3cm);
+}
+.Pad:hover{
+    background: #373737;
+    color: #ffdd00;
+    text-shadow: 0 0 15px #000,
+        0 0 20px #ffdd00;
+}
+.Pad:active{
+    background: #262626;
+    color: #fff;
+}
